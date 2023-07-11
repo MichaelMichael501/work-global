@@ -1,0 +1,130 @@
+.password-container {
+  position: relative;
+}
+
+.password-toggle {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-image: url('eye.png'); /* Replace with your own eye icon */
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.password-toggle.show {
+  background-image: url('eye-off.png'); /* Replace with your own crossed eye icon */
+}
+
+  .login-form{
+    float: left;
+    max-width: fit-content;
+    max-height: fit-content;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding-right: 60px;
+    padding-left: 10px;
+    margin-left: 600px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    color: black;
+
+  }
+  
+  .admin-form{
+    float: left;
+    max-width: fit-content;
+    max-height: fit-content;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding-right: 60px;
+    padding-left: 10px;
+    margin-left: 600px;
+    margin-top: 50px;
+    margin-bottom: 230px;
+    color: black;
+
+  }
+
+  .username{
+    font-size: 15px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+  }
+
+  .password{
+    font-size: 15px;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+  }
+
+
+  .app-username{
+    font-size: 15px;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+  }
+
+  .app-password{
+    font-size: 15px;
+    width: 300px;
+    height: 50px;
+    border-radius: 5px;
+  }
+
+
+  .login-button {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    display: inline-flex;
+    fill: #000;
+    font-family: Inter,sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    min-width: 140px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .login-button:focus {
+    color: #171e29;
+  }
+  
+  .login-button:hover {
+    border-color: #06f;
+    color: #06f;
+    fill: #06f;
+  }
+  
+  .login-button:active {
+    border-color: #06f;
+    color: #06f;
+    fill: #06f;
+  }
+  
+  @media (min-width: 768px) {
+    .login-button {
+      min-width: 170px;
+    }
+  }

@@ -1,0 +1,201 @@
+.first-name {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 400px;
+  padding-left: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.middle-name {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 400px;
+  padding-left: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.last-name {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 400px;
+  padding-left: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.suffix {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 120px;
+  padding-left: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.gender-ratio {
+  display: inline-flex;
+  background: #fff;
+  height: 70px;
+  width: 200px;
+  margin-left: 10px;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  padding-bottom: 30px;
+}
+
+.gender-ratio .option {
+  background: #fff;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0 10px;
+  border: 2px solid lightgrey;
+  transition: all 0.3s ease;
+}
+
+.gender-ratio .option .dot {
+  height: 20px;
+  width: 20px;
+  background: #d9d9d9;
+  border-radius: 50%;
+  position: relative;
+}
+
+.gender-ratio .option .dot::before {
+  position: absolute;
+  content: "";
+  top: 4px;
+  left: 4px;
+  width: 12px;
+  height: 12px;
+  background: #0069d9;
+  border-radius: 50%;
+  opacity: 0;
+  transform: scale(1.5);
+  transition: all 0.3s ease;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+#option-1:checked:checked~.option-1,
+#option-2:checked:checked~.option-2 {
+  border-color: #0069d9;
+  background: #0069d9;
+}
+
+#option-1:checked:checked~.option-1 .dot,
+#option-2:checked:checked~.option-2 .dot {
+  background: #fff;
+}
+
+#option-1:checked:checked~.option-1 .dot::before,
+#option-2:checked:checked~.option-2 .dot::before {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.gender-ratio .option span {
+  font-size: 15px;
+  color: #808080;
+}
+
+#option-1:checked:checked~.option-1 span,
+#option-2:checked:checked~.option-2 span {
+  color: #fff;
+}
+
+.applicant-contact {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 300px;
+  padding-left: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.applicant-email {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 0px;
+  padding-left: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.app-username {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 270px;
+  padding-left: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.app-password {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 270px;
+  padding-left: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.confirm-pass {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  font-size: 20px;
+  width: 270px;
+  padding-left: 10px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.uploaded-logo{
+  max-width: fit-content;
+  max-height: fit-content;
+  width: 300px;
+  margin-top: 10px;
+}
+
+.firstPage {
+  width: 700px;
+  background-color: #fff;
+  margin-left: 200px;
+}
+
+.openBtn {
+  float: right;
+  margin-right: 570px;
+
+}
+
+.app-profile {
+  margin-left: 200px;
+  margin-top: 20px;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.app-name {
+  float: right;
+  margin-top: 30px;
+  margin-right: 550px;
+}
+
+.resume{
+  border: 1px solid;
+}
+

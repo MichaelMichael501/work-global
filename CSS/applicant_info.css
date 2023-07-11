@@ -1,0 +1,74 @@
+.app-container{
+    margin-top: 20px;
+    margin-left: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .7);
+    margin-right: 20px;
+    padding: 9px;
+}
+
+.app-photo{
+    border-radius:50%;
+    max-width: 250px;
+    height: 250px;
+}
+
+.app-name{
+    float: right;
+    margin-top: 60px;
+    margin-right: 550px;
+}
+
+.app-contact{
+    float: right;
+    margin-right: 660px;
+    margin-top: 20px;
+}
+
+.company-name{
+    margin-top: 30px;
+}
+
+.position{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: 810px;
+}
+
+
+.insert-dsgntn{
+    margin-top: 70px;
+    margin-left: 30px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, .7);
+    margin-right: 20px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.app-location{
+    width: 400px;
+}
+
+.date-label{
+    position: absolute;
+    margin-left: 480px;
+}
+
+.app-date{
+ margin-left: 80px;
+} 
+
+.status-label{
+    position: absolute;
+    margin-left: 700px;
+    
+}
+
+.app-status{
+    margin-left: 70px;
+    margin-right: 20px;
+    width: 300px;
+}
+
+.applicant-table{
+    margin-left: 15px;
+}

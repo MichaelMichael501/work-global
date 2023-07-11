@@ -1,0 +1,281 @@
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/*************************************************/
+
+
+/************************************************/
+/** Content CSS **/
+
+.body-content{
+  background-image: linear-gradient(45deg, #83EAF1, #63A4FF);
+  
+}
+
+.application-list{
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  width: fit-content;
+  float: left;
+  margin-right: auto;
+  margin-top: 10px;
+
+}
+
+.job-image{
+  max-width: fit-content;
+  max-height: fit-content;
+  width: 270px;
+  margin-left:60px;
+}
+
+.job-salary{
+  max-width: fit-content;
+  max-height: fit-content;
+  width: 50px;
+  margin-left:10px;
+}
+
+.job-schedule{
+  max-width: fit-content;
+  max-height: fit-content;
+  width: 50px;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.job-address{
+  max-width: fit-content;
+  max-height: fit-content;
+  width: 50px;
+  margin-left:10px;
+}
+
+.salary-text{
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 70px;
+}
+
+.schedule-text{
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 70px;
+}
+
+.address-text{
+  position: absolute;
+  margin-top: 30px;
+  margin-left: 70px;
+}
+
+.employer-job{
+  margin-top: 20px;
+  position: inherit;
+  border-top: 1px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  padding: 5px 5px 10px 10px;
+  
+  
+}
+
+.employer-overview{
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  border: #000;
+  width:66.7%;
+  min-width: auto;
+  position: relative;
+  float: left;
+  margin-right: auto;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.employer-logo{
+  max-width: fit-content;
+  max-height: fit-content;
+  width: 200px;
+  margin-top: 10px;
+  position: relative;
+}
+
+.anchor-list{
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+.company-desc{
+
+  position: relative;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+
+.company-info{
+  position: absolute;
+  margin-left: 230px;
+  margin-top: 30px;
+}
+
+
+.application-table{
+  border-spacing: 0;
+  border-radius: 10px;
+}
+
+.application-table th{
+  text-align: center;
+  background-color: darkslateblue;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 5px;
+}
+
+.application-table td{
+  text-align: center;
+  padding: 10px;
+}
+
+/*************************************************/
+/**** Ratings ****/
+label{
+color: #000;
+font-weight: bold;
+}
+
+.stars {
+  display: inline-block;
+  font-size: 30px;
+  color: #ddd;
+}
+
+.star {
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 2px;
+}
+
+.star:hover,
+.star.active {
+  color: #f1c40f;
+}
+
+/************************************************/
+
+
+/************************************************/
+/****Dropdown Menu****/
+
+.dropdown-icon{
+    position: absolute;
+    max-width: fit-content;
+    max-height: fit-content;
+    width: 25px;
+    margin-left: 15px;
+}
+
+.dropdown-logo{
+  max-width: fit-content;
+  max-height: fit-content;
+  width: 30px;
+}
+
+.dropdown {
+    position: absolute;
+    display: inline-block;
+    box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+    margin-left: 70%;
+    margin-top: 30px;
+  }
+  
+  .dropbtn {
+    background-color: transparent;
+    color: #000;
+    padding: 10px 20px;
+    border: none;
+    padding-right: 40px;
+    cursor: pointer;
+    font-size: 18px;
+    
+  }
+  
+  .dropbtn:hover {
+    background-color: #ccc;
+    color: #fff;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown-content a {
+    color: #000;
+    padding: 10px 10px;
+    font-size: 18px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+    color: #000;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+/***********************************************/
+
+/**********************************************/
+/**Footer**/
+.footer{
+  background-color: #051225;
+  float: left;
+  left: 0;
+  bottom: 0;
+  padding-bottom: 10px;
+  width: 100%;
+  height: 50px; /* adjust the height as needed */
+  text-align: center;
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.text-white{
+  color: white;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.privacy-policy{
+  color: white;
+  margin-left: 30px;
+
+}
+
+/*********************************************/
+@media only screen and (min-resolution: 110dpi),
+only screen and (min-resolution: 1.1dpcm) {
+  .employer-overview{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border: #000;
+    width:62.7%;
+    position: relative;
+    float: left;
+    margin-right: auto;
+    margin-left: 10px;
+    margin-top: 10px;
+  }
+}

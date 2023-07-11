@@ -1,0 +1,213 @@
+/** Header CSS **/
+.header{
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  height: auto;
+}
+
+.website-title{
+position: absolute;
+margin-top: 30px;
+margin-left: 140px;
+font-size: 25px;
+background-color: #f3ec78;
+background-image: linear-gradient(45deg, #37D5D6, #36096D);
+background-size: 100%;
+-webkit-background-clip: text;
+-moz-background-clip: text;
+-webkit-text-fill-color: transparent; 
+-moz-text-fill-color: transparent;
+}
+
+.header-image{
+  max-width: fit-content;
+  max-height: fit-content;
+  width: 100px;
+  margin-left: 20px;
+}
+
+/************************************************/
+
+
+/****Dropdown Menu****/
+
+.dropdown-icon{
+  position: absolute;
+  max-width: fit-content;
+  max-height: fit-content;
+  width: 25px;
+  margin-left: 8px;
+  
+}
+
+.dropdown-logo{
+max-width: fit-content;
+max-height: fit-content;
+width: 30px;
+}
+
+.dropdown {
+  position: absolute;
+  display: inline-block;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5);
+  margin-left: 70%;
+  margin-top: 30px;
+}
+
+.dropbtn {
+  background-color: transparent;
+  color: #000;
+  padding: 10px 20px;
+  border: none;
+  padding-right: 40px;
+  cursor: pointer;
+  font-size: 18px;
+  
+}
+
+.dropbtn:hover {
+  background-color: #ccc;
+  color: #fff;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  z-index: 1;
+  background-color: #fff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+  color: #000;
+  padding: 10px 10px;
+  font-size: 18px;
+  text-decoration: none;
+  text-align: justify;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+  color: #000;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+/***********************************************/
+
+.privacy-policy-text{
+  padding: 20px,20px;
+  margin-left: 10px;
+  color: #000;
+}
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    opacity: 0;
+    animation: fade-in 0.5s ease-in-out forwards;
+  }
+
+.privacy-policy{
+  padding: 20px,20px;
+  color: white;
+  
+}
+
+#spinner {
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity .5s ease-out, visibility 0s linear .5s;
+    z-index: 99999;
+}
+
+#spinner.show {
+    transition: opacity .5s ease-out, visibility 0s linear 0s;
+    visibility: visible;
+    opacity: 1;
+}
+
+.all-table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 1em;
+    font-family: sans-serif;
+    min-width: fit-content;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.all-table thead tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+
+.all-table th,
+.all-table td {
+    padding: 10px 5px;
+}
+
+.all-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.all-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.all-table tbody tr:last-of-type {
+    border-bottom: 2px solid #009879;
+}
+
+.all-button {
+    align-items: center;
+    background-color: #fff;
+    border: 2px solid #000;
+    box-sizing: border-box;
+    color: #000;
+    cursor: pointer;
+    fill: #000;
+    font-family: Inter,sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+    height: 48px;
+    justify-content: center;
+    letter-spacing: -.8px;
+    line-height: 24px;
+    min-width: 120px;
+    outline: 0;
+    padding: 0 17px;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s;
+    user-select: none;
+    border-radius:20px;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+  }
+  
+  .all-button:focus {
+    color: #171e29;
+  }
+  
+  .all-button:hover {
+    border-color: #06f;
+    color: #06f;
+    fill: #06f;
+  }
+  
+  .all-button:active {
+    border-color: #06f;
+    color: #06f;
+    fill: #06f;
+  }
+  
+  @media (min-width: 768px) {
+    .all-button {
+      min-width: 170px;
+    }
+  }
+
+
+

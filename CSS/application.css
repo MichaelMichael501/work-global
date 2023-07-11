@@ -1,0 +1,10 @@
+.applicant-table{
+    margin-left: 100px;
+    margin-bottom: 500px;
+    float: left;
+    max-width: fit-content;
+    max-height: fit-content;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    padding-right: 60px;
+    padding-left: 10px;
+}

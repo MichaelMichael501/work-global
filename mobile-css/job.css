@@ -1,0 +1,218 @@
+.job-photo {
+    max-width: fit-content;
+    max-height: fit-content;
+    width: 400px;
+  }
+
+.job-offer-list{
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    border: 0.5px solid;
+    width:920px;
+    min-width: auto;
+    position: relative;
+    margin-right: auto;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.legend-job{
+    margin-left: 10px;
+}
+
+.company-name{
+    position: absolute;
+    margin-top: 5px;
+    margin-left: 405px;  
+}
+
+.job-title{
+    position: absolute;
+    margin-top: 35px;
+    margin-left: 45px;  
+}
+
+.salary{
+    position: absolute;
+    max-width: fit-content;
+    max-height: fit-content;
+    width: 50px;
+}
+
+.salary{
+    position: absolute;
+    max-width: fit-content;
+    max-height: fit-content;
+    width: 50px;
+    margin-left: 405px;
+    margin-top: 70px;
+    
+}
+
+.salary-title{
+    position: absolute;
+    margin-left: 460px;
+    margin-top: 75px; 
+}
+
+.salary-value{
+    position: absolute;
+    margin-left: 460px;
+    margin-top: 95px;
+}
+
+.shift-title{
+    position: absolute;
+    margin-left: 460px;
+    margin-top: 130px;
+}
+
+.shift-value{
+    position: absolute;
+    margin-left: 460px;
+    margin-top: 150px;
+}
+
+.shift{
+    position: absolute;
+    max-width: fit-content;
+    max-height: fit-content;
+    width: 50px;
+    margin-left: 405px;
+    margin-top: 130px;
+}
+
+.address{
+    position: absolute;
+    max-width: fit-content;
+    max-height: fit-content;
+    width: 50px;
+    margin-left: 405px;
+    margin-top: 180px;
+}
+
+.address-title{
+    position: absolute;
+    margin-left: 460px;
+    margin-top: 190px;
+}
+
+.address-value{
+    position: absolute;
+    margin-left: 460px;
+    margin-top: 210px;
+}
+
+.job-contact{
+    position: absolute;
+    max-width: fit-content;
+    max-height: fit-content;
+    width: 50px;
+    margin-left: 605px;
+    margin-top: 75px;
+}
+
+.contact-title{
+    position: absolute;
+    margin-left: 660px;
+    margin-top: 75px;
+}
+
+.contact-value{
+    position: absolute;
+    margin-left: 660px;
+    margin-top: 95px;
+}
+
+.website{
+    position: absolute;
+    max-width: fit-content;
+    max-height: fit-content;
+    width: 50px;
+    margin-left: 605px;
+    margin-top: 130px;
+}
+
+.emp-website-title{
+    position: absolute;
+    margin-left: 660px;
+    margin-top: 135px;
+}
+
+.website-value{
+    position: absolute;
+    margin-left: 660px;
+    margin-top: 155px;
+}
+
+.apply-btn{
+    position: absolute;
+    margin-top: 215px;
+    margin-left: 340px;
+
+}
+
+.search-job{
+    margin-left: 10px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-left: 10px;
+    width: 400px;
+}
+
+/* CSS */
+.filter-btn{
+    margin-left:10px;
+}
+
+.filter-button {
+  align-items: center;
+  appearance: none;
+  margin-top:20px;
+  margin-bottom:10px;
+  margin-left:5px;
+  background-color: #3EB2FD;
+  background-image: linear-gradient(1deg, #4F58FD, #149BF3 99%);
+  background-size: calc(100% + 20px) calc(100% + 20px);
+  border-radius: 100px;
+  border-width: 0;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: CircularStd,sans-serif;
+  font-size: 1rem;
+  height: auto;
+  justify-content: center;
+  line-height: 1.5;
+  padding: 6px 20px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color .2s,background-position .2s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.filter-button:active,
+.filter-button:focus {
+  outline: none;
+}
+
+.filter-button:hover {
+  background-position: -20px -20px;
+}
+
+.filter-button:focus:not(:active) {
+  box-shadow: rgba(40, 170, 255, 0.25) 0 0 0 .125em;
+}
+
+
+
+
+
+
+
